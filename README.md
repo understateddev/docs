@@ -1,4 +1,4 @@
-# ShipKit Docs
+# StarterKit Docs
 
 ## Development
 

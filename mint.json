@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "ShipKit Docs",
+  "name": "Understated Docs",
   "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.svg",
@@ -26,14 +26,18 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "https://shipkit.app/contact"
+      "url": "mailto:support@understated.dev"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://shipkit.app/dashboard"
+    "url": "https://understated.dev/dashboard"
   },
   "tabs": [
+    {
+      "name": "StarterKit",
+      "url": "starterkit"
+    },
     {
       "name": "Components",
       "url": "components"
@@ -42,111 +46,119 @@
   "anchors": [],
   "navigation": [
     {
+      "group": "",
+      "pages": ["welcome"]
+    },
+    {
       "group": "Quickstart",
-      "pages": ["introduction", "download", "cli"]
+      "pages": [
+        "starterkit/introduction",
+        "starterkit/download",
+        "starterkit/cli"
+      ]
     },
     {
       "group": "Astro",
       "pages": [
-        "astro/getting-started",
-        "astro/public-pages",
-        "astro/private-pages"
+        "starterkit/astro/getting-started",
+        "starterkit/astro/public-pages",
+        "starterkit/astro/private-pages"
       ]
     },
     {
       "group": "Next.js",
       "pages": [
-        "next/getting-started",
-        "next/public-pages",
-        "next/private-pages"
+        "starterkit/next/getting-started",
+        "starterkit/next/public-pages",
+        "starterkit/next/private-pages"
       ]
     },
     {
       "group": "Frameworks",
       "pages": [
-        "frameworks/introduction",
-        "frameworks/react",
-        "frameworks/vue",
-        "frameworks/svelte",
-        "frameworks/solid",
-        "frameworks/preact"
+        "starterkit/frameworks/introduction",
+        "starterkit/frameworks/react",
+        "starterkit/frameworks/vue",
+        "starterkit/frameworks/svelte",
+        "starterkit/frameworks/solid",
+        "starterkit/frameworks/preact"
       ]
     },
     {
       "group": "Databases",
       "pages": [
-        "databases/introduction",
-        "databases/drizzle",
-        "databases/prisma",
-        "databases/postgresql",
-        "databases/mysql",
-        "databases/sqlite",
-        "databases/neon",
-        "databases/turso"
+        "starterkit/databases/introduction",
+        "starterkit/databases/drizzle",
+        "starterkit/databases/prisma",
+        "starterkit/databases/postgresql",
+        "starterkit/databases/mysql",
+        "starterkit/databases/sqlite",
+        "starterkit/databases/neon",
+        "starterkit/databases/turso"
       ]
     },
     {
       "group": "Authentication",
       "pages": [
-        "auth/introduction",
-        "auth/lucia",
-        "auth/supabase",
-        "auth/clerk",
-        "auth/google"
+        "starterkit/auth/introduction",
+        "starterkit/auth/lucia",
+        "starterkit/auth/supabase",
+        "starterkit/auth/clerk",
+        "starterkit/auth/google"
       ]
     },
     {
       "group": "Payments",
-      "pages": ["pay/introduction"]
+      "pages": ["starterkit/pay/introduction"]
     },
     {
       "group": "Emails",
-      "pages": ["emails/introduction"]
+      "pages": ["starterkit/emails/introduction"]
     },
     {
       "group": "Design",
-      "pages": ["design/introduction"]
+      "pages": ["starterkit/design/introduction"]
     },
     {
       "group": "Analytics",
       "pages": [
-        "analytics/introduction",
-        "analytics/posthog",
-        "analytics/plausible"
+        "starterkit/analytics/introduction",
+        "starterkit/analytics/posthog",
+        "starterkit/analytics/plausible"
       ]
     },
     {
       "group": "Deploy",
       "pages": [
-        "deploy/introduction",
-        "deploy/node",
-        "deploy/netlify",
-        "deploy/vercel"
+        "starterkit/deploy/introduction",
+        "starterkit/deploy/node",
+        "starterkit/deploy/netlify",
+        "starterkit/deploy/vercel"
       ]
     },
     {
       "group": "Support",
-      "pages": ["support/email"]
+      "pages": ["starterkit/support/email"]
     },
     {
       "group": "Components",
       "pages": [
-        "components/introduction",
-        "components/dashboardheader",
-        "components/faqs",
-        "components/feature",
-        "components/featuresgrid",
-        "components/footer",
-        "components/header",
-        "components/hero",
-        "components/plancards",
-        "components/statement",
-        "components/ui"
+        "starterkit/components/introduction",
+        "starterkit/components/dashboardheader",
+        "starterkit/components/faqs",
+        "starterkit/components/feature",
+        "starterkit/components/featuresgrid",
+        "starterkit/components/footer",
+        "starterkit/components/header",
+        "starterkit/components/hero",
+        "starterkit/components/plancards",
+        "starterkit/components/statement",
+        "starterkit/components/ui"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/ShipKitApp",
-    "github": "https://github.com/shipkitorg"
+    "x": "https://x.com/UnderstatedDev",
+    "github": "https://github.com/understateddev"
   }
 }
