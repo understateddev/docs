@@ -43,7 +43,6 @@
       "url": "components"
     }
   ],
-  "anchors": [],
   "navigation": [
     {
       "group": "",
@@ -157,6 +156,7 @@
       ]
     }
   ],
+  "anchors": [],
   "footerSocials": {
     "x": "https://x.com/UnderstatedDev",
     "github": "https://github.com/understateddev"
